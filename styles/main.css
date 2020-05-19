@@ -1,0 +1,125 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', monospace;
+}
+
+.title{
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.todo__container {
+  margin-top: 100px;
+  max-width: 60%;
+  background: #3c415e;
+  font-size: 20px;
+}
+
+.todo__title {
+  padding: 25px;
+  color: #1cb3c8;
+}
+
+.add__todo {
+  padding: 0;
+  width: 87%;
+  margin: 0 auto;
+}
+
+#todos {
+  width: 87%;
+  margin: 0 auto;
+}
+
+#todos ul {
+  padding-left: 0;
+}
+
+.todo__item {
+  list-style: none;
+  text-align: left;
+  color: #1cb3c8;
+}
+
+.add__form{
+  background: #1cb3c8;
+  border: none;
+  border-radius: 0;
+  color: #3c415e;
+  font-size: 20px;
+
+}
+
+.add__form:focus{
+  background: #1cb3c8;
+  color: #3c415e;
+}
+
+.add__form::placeholder{
+  color: #3c415e;
+  font-size: 18px;
+}
+
+.btn__check{
+  color: #1cb3c8;
+  font-size: 20px;
+  background: none;
+  border: #1cb3c8 1px solid;
+}
+
+.btn__check:hover{
+  color: #3c415e;
+  background: #1cb3c8;
+  transition: .3s ease-in-out;
+}
+
+
+.add__form:hover{
+  background: #1cb3c8;
+  color: #3c415e;
+}
+
+
+.done{
+  color: white;
+  padding: 0;
+  float: right;
+  font-size: 20px;
+}
+
+.done:hover{
+  color: orange;
+  transition: .3s ease;
+}
+.remove {
+color: white;
+padding: 0px;
+float: right;
+font-size: 20px;
+}
+
+.remove:hover{
+  color: red;
+  transition: .3s ease;
+}
+
+
+/* Media Querys */
+
+@media only screen and (max-width: 800px) {
+
+  body{
+    background-color: #3c415e;
+  }
+  .todo__container {
+    margin-top: 100px;
+    max-width: 100%;
+    background: #3c415e;
+    font-size: 20px;
+  }
+}
+
+
+
